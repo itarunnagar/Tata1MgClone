@@ -1,0 +1,161 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+i {
+  cursor: pointer;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+:root {
+  --headerText: #212121;
+  --inputbgc: #f1f4f6;
+  --color: #666;
+  --btnColor: #ff6f61;
+}
+body {
+  font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Header Section Start */
+/* Header Section Start */
+/* Header Section Start */
+/* Header Section Start */
+/* Header Section Start */
+
+/* Upper Header */
+/* Upper Header */
+/* Upper Header */
+.upperHeaderSection {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.logo img {
+  width: 120px;
+}
+.upperHeaderUtilityList {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+.upperHeaderUtilityList li a {
+  text-decoration: none;
+  color: var(--headerText);
+  font-size: 14px;
+  font-weight: 600;
+}
+.upperHeaderOfferUtility {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-size: 13px;
+  color: var(--color);
+  margin-left: 5px;
+}
+.whiteLine {
+  width: 1px;
+  height: 15px;
+  margin: 0px 5px;
+  border: 1px solid var(--color);
+}
+.offers {
+  margin-left: 20px;
+}
+.cardsTab i {
+  margin-left: 20px;
+}
+.needHelp {
+  margin-left: 25px;
+}
+
+/* Middle Header */
+/* Middle Header */
+/* Middle Header */
+.middleHeaderSearchBox {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-left: 80px;
+}
+.locationBox {
+  display: flex;
+  align-items: center;
+  background-color: var(--inputbgc);
+  width: 250px;
+  height: 35px;
+  padding: 5px;
+}
+.locationBox input {
+  border: none;
+  background-color: var(--inputbgc);
+  font-weight: 900;
+  color: black;
+  margin-left: 10px;
+  height: 35px;
+}
+.searchBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--inputbgc);
+  width: 550px;
+  height: 35px;
+  padding: 5px 10px;
+}
+.searchBox input {
+  border: none;
+  background-color: var(--inputbgc);
+  color: black;
+  height: 35px;
+  width: 400px;
+}
+.latestOffers {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.latestOffers img {
+  position: relative;
+  left: 15px;
+}
+.offerHeading {
+  color: var(--color);
+  font-size: 12px;
+  font-weight: 600;
+}
+.quickOrderBtn {
+  background-color: var(--btnColor);
+  border-radius: 6px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+/* Lower Header */
+/* Lower Header */
+/* Lower Header */
+.lowerHeaderSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 30px;
+}
+.lowerHeaderBox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.lowerHeaderBoxHeading {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--color);
+}
