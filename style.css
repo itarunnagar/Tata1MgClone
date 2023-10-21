@@ -233,9 +233,12 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: 0.5s ease-in;
+  transition: 0.5s ease-in-out;
   flex-direction: column;
   gap: 15px;
+  width: 14%;
+  height: 13rem;
+  border-radius: 25px;
 }
 .allBox img {
   width: 120px;
@@ -275,20 +278,132 @@ main {
   gap: 25px;
 }
 .boxAreas {
-  /* box-shadow: 0px 0px 10px grey; */
   width: 23%;
   height: 8rem;
   border-radius: 25px;
   border: 1px solid #eee;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+  padding-left: 15px;
+}
+.boxAreas:hover {
+  box-shadow: 0px 0px 10px grey;
+  width: 23%;
+  height: 8rem;
+  border-radius: 25px;
+}
+.upperBoxDetails {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.upperBoxDetails p {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--headerText);
+}
+.upperBoxDetails div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background-color: #ffe3c2;
+  width: 80px;
+  height: 30px;
+}
+.upperBoxDetails span {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color);
+}
+.lowerBoxDetails {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-size: 18px;
+}
+.cross {
+  font-size: 13px;
+  color: var(--color);
 }
 .offerBox {
   border: 1px dashed #1aab2a;
   background-color: rgba(26, 171, 42, 0.05);
   padding: 3px;
-  margin-top: 2px;
+  font-size: 12px;
+  color: #1aab2a;
+  margin-left: 10px;
 }
-/* Footer Section */
-footer {
-  margin-top: 2000px;
+
+/* Product Section Design of Long Rectangle Banner */
+/* Product Section Design of Long Rectangle Banner */
+/* Product Section Design of Long Rectangle Banner */
+/* Product Section Design of Long Rectangle Banner */
+/* Product Section Design of Long Rectangle Banner */
+.productsCardsArea01 {
+  background-color: var(--bgc);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25rem;
 }
+.productsAllBox {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 15px 20px;
+  transition: 0.5s ease-in-out;
+  flex-direction: column;
+  width: 14%;
+  height: 100%;
+  border-radius: 25px;
+}
+.productsAllBox:hover {
+  width: 14%;
+  height: 25rem;
+  border-radius: 25px;
+  box-shadow: 0px 0px 10px grey;
+}
+.productsAllBox img {
+  width: 115px;
+  height: 150px;
+}
+.lowerSection {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.productHeading {
+  font-size: 13px;
+  color: var(--headerText);
+  letter-spacing: 0.7px;
+  line-height: 20px;
+  font-weight: 600;
+}
+.deleiveryDetails {
+  font-size: 14px;
+  color: var(--color);
+  font-weight: 600;
+}
+.productPrice {
+  font-size: 16px;
+  color: var(--headerText);
+  font-weight: 600;
+  line-height: 25px;
+}
+.productOffer {
+  font-size: 12px;
+  color: #1aab2a;
+}
+/* Footer Section Start From Here*/
+/* Footer Section Start From Here*/
+/* Footer Section Start From Here*/
+/* Footer Section Start From Here*/
+/* Footer Section Start From Here*/
