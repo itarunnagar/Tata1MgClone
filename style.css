@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  /* border: 1px solid black; */
 }
 i {
   cursor: pointer;
@@ -176,13 +177,20 @@ input {
   align-items: center;
 }
 .firstBannerContainer {
-  width: 70%;
+  width: 70vw;
+  height: 41vh;
+}
+.firstBannerContainer img {
+  width: 100%;
+  height: 100%;
 }
 .secondBannerContainer {
-  width: 30%;
+  width: 30vw;
+  height: 41vh;
 }
 .secondBannerContainer img {
-  width: 400px;
+  width: 100%;
+  height: 100%;
 }
 /* Banner ParaGraph */
 main {
@@ -414,14 +422,12 @@ main {
 /* Footer Section Start From Here*/
 
 .footerDetailsArea {
-  /* text-align: center; */
   display: flex;
   flex-direction: column;
   padding: 30px;
   gap: 18px;
   background-color: var(--bgc);
   width: 100%;
-  height: 80.5rem;
 }
 .mainDetailsHeading {
   font-size: 18px;
@@ -504,7 +510,6 @@ main {
 /* Footer Utility Area */
 .endOfFooterSection {
   width: 100%;
-  height: 20rem;
   background-color: var(--footerBgc);
 }
 .footerUtility {
@@ -548,4 +553,91 @@ main {
   padding: 10px;
   height: 40px;
   cursor: pointer;
+}
+
+/* For Tabelet Media Queries Section */
+/* For Tabelet Media Queries Section */
+/* For Tabelet Media Queries Section */
+/* For Tabelet Media Queries Section */
+@media (min-width: 800px) and (max-width: 1200px) {
+  /* Header Section Start */
+  /* Header Section Start */
+  /* Header Section Start */
+
+  /* Upper Header */
+  /* Upper Header */
+  .offers {
+    display: none;
+  }
+  .cardsTab {
+    display: none;
+  }
+  .needHelp {
+    display: none;
+  }
+  .upperHeaderUtilityList {
+    margin-left: 20px;
+  }
+
+  /* Middle Header */
+  /* Middle Header */
+  /* Middle Header */
+  .middleHeaderSearchBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 0px 10px;
+  }
+  .latestOffers {
+    display: none;
+  }
+  /* Lower Header Section */
+  /* Lower Header Section */
+  /* Lower Header Section */
+  .lowerHeaderSection {
+    gap: 15px;
+    margin: 30px 15px;
+  }
+  .lowerHeaderBoxHeading {
+    font-size: 12px;
+  }
+  .lowerHeaderBox {
+    gap: 2px;
+  }
+
+  /*Feature Section Start From Here or PAge 02 */
+  /* Feature Section Start From Here or PAge 02 */
+
+  .allBox img {
+    width: 100%;
+  }
+  /* Long Banner Section Rectangle  */
+  /* Long Banner Section Rectangle  */
+  .boxAreas {
+    width: 25%;
+  }
+  .boxAreas:hover {
+    width: 25%;
+  }
+  .cardArea {
+    gap: 20px;
+  }
+  .upperBoxDetails div {
+    margin-left: -35px;
+  }
+
+  /* Product Section Design of Long Rectangle Banner */
+  /* Product Section Design of Long Rectangle Banner */
+
+  .productsAllBox {
+    width: 20%;
+  }
+  .productsAllBox:nth-child(6),
+  .productsAllBox:nth-child(7) {
+    display: none;
+  }
+  .productsAllBox:hover {
+    width: 20%;
+  }
 }
